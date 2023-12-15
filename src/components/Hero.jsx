@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-full h-full flex items-center justify-center px-10 lg:-px-0">
           <div className="w-[400px] lg:h-[500px] h-[350px] bg-primary flex flex-col gap-9 items-start  rounded-lg shadow-md shadow-secondary/70">
             <h1 className="lg:text-3xl text-2xl text-center w-full text-white p-3">
-              Get Enrolled
+              Sign Up
             </h1>
 
             <div className="w-full h-full px-10 flex flex-col lg:gap-8 gap-6 items-start justify-start">
@@ -46,16 +46,20 @@ const Hero = () => {
             Welcome to Your New Adventure <br /> - Let's Get You Settled In!
           </h1>
           <p className="lg:text-xl text-base text-white/70 mb-8 lg:w-[500px] w-full">
-            Embark on your academic journey with ease and confidence. We're here
-            to guide you every step of the way, from finding your new home to
-            exploring local cultures. Start your study abroad experience with
-            the perfect settling-in support.
+            Welcome to Settle In, your ultimate companion on your Canadian
+            journey! 🍁✨ Whether you're here on a student visa, visitation
+            visa, or making Canada your permanent home, we've got your back
+            every step of the way.
+            <span className="text-secondary inline-block font-bold text-2xl">
+              Get started today for $10 CAD
+            </span>
+            .
           </p>
           <button
             style={{ textShadow: "2px 2px 2px #000" }}
             className="bg-secondary hover:bg-secondary/60 text-white font-semibold py-2 px-4 rounded hover:bg-primary-dark shadow-md shadow-black/50"
           >
-            Explore Tours
+            Get started
           </button>
         </div>
       </div>

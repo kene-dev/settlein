@@ -15,19 +15,18 @@ const Why = () => {
           <img src={pin1} className="object-contain w-full h-full" />
           <div className="flex flex-col gap-6 items-start">
             <div>
-              <h1 className="text-2xl font-bold">
-                Tailored Local Support by Settle In
-              </h1>
-              <span>Your Personal Guide to a New Beginning:</span>
+              <h1 className="text-2xl font-bold">Smart Travels</h1>
+              <span>
+                We believe in affordable adventures! Count on us for tips on
+                scoring cheap flight bookings to and from Canada
+              </span>
             </div>
             <p>
-              At Settle In, we recognize that every student's needs are unique.
-              Our tour guides provide personalized services tailored to your
-              specific interests and requirements. From showing you the best
-              study spots to uncovering local cafes that suit your taste, we
-              ensure that every aspect of your new life is in harmony with your
-              preferences. Our mission is to make your new city feel like home,
-              with a personal touch.
+              Budget-Savvy Flight Bookings: Traveling should be an exciting
+              adventure, not a financial burden. Our travel experts specialize
+              in finding affordable flight options. Receive tips on booking
+              strategically, taking advantage of discounts, and making the most
+              of your travel budget.
             </p>
           </div>
         </div>
@@ -37,40 +36,92 @@ const Why = () => {
           <img src={pin2} className="object-contain w-full h-full" />
           <div className="flex flex-col gap-6 items-start">
             <div>
-              <h1 className="text-2xl font-bold">
-                Safety and Confidence with Settle In
-              </h1>
-              <span>Navigate Your New World with Assurance:</span>
+              <h1 className="text-2xl font-bold">Navigating the City:</h1>
+              <span>
+                From bus routes to Presto card registration, we've got the
+                inside scoop on getting around hassle-free.
+              </span>
             </div>
             <p>
-              At Settle In, we recognize that every student's needs are unique.
-              Our tour guides provide personalized services tailored to your
-              specific interests and requirements. From showing you the best
-              study spots to uncovering local cafes that suit your taste, we
-              ensure that every aspect of your new life is in harmony with your
-              preferences. Our mission is to make your new city feel like home,
-              with a personal touch.
+              Customized Bus Route Guidance: Our team understands the importance
+              of efficient daily commutes. We'll not only provide you with
+              information on bus routes but also customize recommendations based
+              on your specific location, ensuring you get to your destination
+              with ease. <br />
+              Presto Card Expertise: Navigating public transportation is a
+              breeze with our assistance in Presto card registration. From
+              application to usage tips, we've got you covered for seamless
+              travel within the city.
             </p>
           </div>
         </div>
+
         {/* MIDDLE CARD SECTION */}
         <div className="w-full h-max flex lg:flex-row flex-col items-center justify-center lg:px-12 gap-10">
           <img src={pin3} className="object-contain w-[511px] h-[500px]" />
           <div className="flex flex-col gap-6 items-start">
             <div>
-              <h1 className="text-2xl font-bold">
-                Cultural Immersion and Understanding
-              </h1>
-              <span>Ease into Your New Life with Cultural Insights:</span>
+              <h1 className="text-2xl font-bold">Financial Ease</h1>
+              <span>
+                Let us guide you through the process of opening a bank account
+                and registering for your SIN, ensuring a smooth transition into
+                Canadian life.
+              </span>
             </div>
             <p>
-              Settle In goes beyond the basics of helping you move; we offer an
-              immersive introduction to your new country's culture. Our guides
-              are experts in local customs, traditions, and social norms. With
-              Settle In, you won’t just find yourself in a new country; you’ll
-              find yourself becoming a part of it. Our focus on cultural
-              understanding helps you navigate social situations with
-              confidence, making your transition smoother and more enjoyable.
+              Tailored Bank Account Support: Opening a bank account is a crucial
+              step in settling down. Our experts will guide you through the
+              process, taking into account your preferences and financial goals.
+              Whether you're a student or a permanent resident, we ensure your
+              banking experience aligns with your needs. <br />
+              SIN Registration Assistance: Acquiring your Social Insurance
+              Number (SIN) is vital for various aspects of Canadian life. Let us
+              simplify the process for you, ensuring a smooth transition into
+              the country's workforce and services.
+            </p>
+          </div>
+        </div>
+
+        {/* FOURTH CARD SECTION */}
+        <div className="w-full h-max flex lg:flex-row-reverse flex-col items-center justify-center lg:px-12 gap-10">
+          <img src={pin2} className="object-contain w-full h-full" />
+          <div className="flex flex-col gap-6 items-start">
+            <div>
+              <h1 className="text-2xl font-bold"> On the Road</h1>
+              <span>
+                Dreaming of hitting the open road? We'll help you with G1 to G
+                driver's license registration and provide preparation materials
+                to make driving in Canada a breeze.
+              </span>
+            </div>
+            <p>
+              Comprehensive G1 to G Driver's License Support: Planning to
+              explore Canada by car? We're here to assist you in every step of
+              the driver's license journey, from obtaining your G1 to upgrading
+              to a full G license. Our preparation materials and guidance will
+              empower you to navigate Canadian roads confidently.
+            </p>
+          </div>
+        </div>
+
+        {/* FIFTH CARD SECTION */}
+        <div className="w-full h-max flex lg:flex-row flex-col items-center justify-center lg:px-12  gap-10">
+          <img src={pin1} className="object-contain w-full h-full" />
+          <div className="flex flex-col gap-6 items-start">
+            <div>
+              <h1 className="text-2xl font-bold">Comfortable Living:</h1>
+              <span>
+                Finding a home away from home is crucial. Trust Settle In for
+                assistance in securing accommodation bookings tailored to your
+                needs.
+              </span>
+            </div>
+            <p>
+              Tailor-Made Accommodation Bookings: Your home away from home
+              should reflect your lifestyle and preferences. Count on Settle In
+              to assist you in securing accommodation that aligns with your
+              needs and budget. From student housing to long-term rentals, we'll
+              guide you through the process of finding the perfect living space.
             </p>
           </div>
         </div>

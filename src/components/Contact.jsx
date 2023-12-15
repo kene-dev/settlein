@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <div className="w-full lg:h-[460px] h-[400px] banner"></div>
       <h1 className="capitalize text-center text-3xl font-bold w-full my-8">
-        Get in touch with us
+        For Further inquiries. Reach Out
       </h1>
 
       <div className="w-full h-max flex lg:flex-row flex-col items-start justify-center gap-6 lg:px-14">
@@ -16,22 +16,12 @@ const Contact = () => {
           <div className="w-full flex items-center justify-center gap-5">
             <input
               required
-              placeholder="First Name"
-              className=" w-full lg:h-[60px] h-[30px] p-10 text-black appearance-none border-b-2 border-secondary/50 focus:outline-none bg-tertiary focus:border-b-2 focus:border-secondary"
-            />
-            <input
-              required
-              placeholder="Last Name"
+              placeholder="Full Name"
               className=" w-full lg:h-[60px] h-[30px] p-10 text-black appearance-none border-b-2 border-secondary/50 focus:outline-none bg-tertiary focus:border-b-2 focus:border-secondary"
             />
           </div>
 
           <div className="w-full flex items-center justify-center gap-5">
-            <input
-              required
-              placeholder="Phone Number"
-              className=" w-full lg:h-[60px] h-[30px] p-10 text-black appearance-none border-b-2 border-secondary/50 focus:outline-none bg-tertiary focus:border-b-2 focus:border-secondary"
-            />
             <input
               required
               placeholder="Email"

@@ -95,7 +95,7 @@ const Navbar = () => {
           style={{ textShadow: "2px 2px 2px #000" }}
           className="hidden w-max px-10 rounded-md p-2 lg:flex items-center justify-center text-white text-xl font-bold bg-secondary cursor-pointer"
         >
-          Enrol
+          Get Started
         </Link>
 
         <div className="lg:hidden ">

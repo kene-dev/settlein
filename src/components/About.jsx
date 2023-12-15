@@ -12,7 +12,8 @@ const About = () => {
           style={{ textShadow: "2px 2px 2px #000" }}
           className="lg:text-2xl text-base text-white font-bold"
         >
-          Settle In: Your Companion in New Beginnings
+          About Us <br />
+          <span className="text-sm">Your Companion in New Beginnings</span>
         </h1>
         <div className="w-full h-full flex lg:flex-row  flex-col items-center justify-center gap-7">
           {/* GALLERY DISPLAY STARTS HERE */}
@@ -30,29 +31,29 @@ const About = () => {
 
           <div className="w-full h-full flex flex-col items-start gap-6 text-lg">
             <p>
-              Embarking on your academic journey in a new country is an
-              adventure filled with opportunities and challenges. "Settle In"
-              understands this transitional phase and is dedicated to smoothing
-              your path. We specialize in helping students like you acclimate to
-              new environments, ensuring your focus remains on your studies and
-              personal growth.
+              Settle In is a holistic support system designed to make every
+              aspect of your transition into Canada seamless and stress-free.
+              Once you register, you get your own dedicated settle In guide to
+              help you navigate your new adventure. From daily commutes to
+              finding your dream home, we're here for you. Welcome to your new
+              chapter in Canada!
             </p>
-            <p>
+            {/* <p>
               Our services at "Settle In" include personalized accommodation
               assistance, orientation tours, language support, and cultural
               integration programs. We believe that being comfortable in your
               new surroundings is key to academic success. By taking care of the
               practicalities of settling in, we free you to explore, learn, and
               grow in your new home.
-            </p>
+            </p> */}
             <p>
               The benefits of "Settle In" extend beyond just finding a place to
-              stay. We foster a community of fellow international students,
-              allowing you to build a supportive network from day one. Our local
-              insights and resources help you navigate through your initial days
-              with confidence. With "Settle In", you’re not just moving to a new
-              country for studies; you're embarking on a well-supported journey
-              of discovery and learning.
+              stay. We foster a community of fellow immigrants, allowing you to
+              build a supportive network from day one. Our local insights and
+              resources help you navigate through your initial days with
+              confidence. With "Settle In", you’re not just moving to a new
+              country; you're embarking on a well-supported journey of discovery
+              and learning.
             </p>
           </div>
         </div>

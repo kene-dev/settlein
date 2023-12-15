@@ -26,9 +26,20 @@ const Footer = () => {
           <p>2023 Settle In All rights reserved</p>
         </div>
         <div className="w-full flex items-center lg:justify-end justify-center gap-7">
-          <FaFacebookSquare className="w-[30px] h-[30px]" />
-          <AiFillInstagram className="w-[30px] h-[30px]" />
-          <FaTwitter className="w-[30px] h-[30px]" />
+          <a href="" className="cursor-pointer">
+            <FaFacebookSquare className="w-[30px] h-[30px]" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/settle.info?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+            className="cursor-pointer"
+          >
+            <AiFillInstagram className="w-[30px] h-[30px]" />
+          </a>
+
+          <a href="https://x.com/settlein_info?s=11" className="cursor-pointer">
+            <FaTwitter className="w-[30px] h-[30px]" />
+          </a>
         </div>
       </div>
     </div>
