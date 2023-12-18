@@ -93,7 +93,7 @@ const Navbar = () => {
           offset={-100}
           duration={500}
           style={{ textShadow: "2px 2px 2px #000" }}
-          className="hidden w-max px-10 rounded-md p-2 lg:flex items-center justify-center text-white text-xl font-bold bg-secondary cursor-pointer"
+          className="hidden w-max px-10 rounded-md p-2 lg:flex items-center justify-center text-white text-base font-bold bg-secondary cursor-pointer"
         >
           Get Started
         </Link>

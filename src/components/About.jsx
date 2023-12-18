@@ -1,8 +1,8 @@
 import React from "react";
-import pic1 from "../assets/pic1.png";
+import pic1 from "../assets/comm2.jpeg";
 import pic2 from "../assets/pic2.png";
-import pic3 from "../assets/pic3.png";
-import pic4 from "../assets/pic4.png";
+import pic3 from "../assets/comm.jpeg";
+import pic4 from "../assets/comm1.jpeg";
 
 const About = () => {
   return (
@@ -19,17 +19,26 @@ const About = () => {
           {/* GALLERY DISPLAY STARTS HERE */}
           <div className="w-full h-full flex items-center gap-6 justify-start">
             <div className="flex flex-col gap-3 w-max h-full">
-              <img src={pic1} className="object-contain w-full lg:h-[300px]" />
+              <img
+                src={pic1}
+                className="object-cover w-full lg:h-[300px] rounded-2xl"
+              />
               <img src={pic2} className="object-contain w-full lg:h-[150px]" />
             </div>
             <div className="flex flex-col gap-3 w-max h-full">
-              <img src={pic3} className="object-contain w-full lg:h-[150px]" />
-              <img src={pic4} className="object-contain w-full lg:h-[300px]" />
+              <img
+                src={pic3}
+                className="object-contain w-full lg:h-[150px] rounded-2xl"
+              />
+              <img
+                src={pic4}
+                className="object-cover w-full lg:h-[300px] rounded-2xl"
+              />
             </div>
           </div>
           {/* GALLERY DISPLAY ENDS HERE */}
 
-          <div className="w-full h-full flex flex-col items-start gap-6 text-lg">
+          <div className="w-full h-full flex flex-col items-start gap-6 text-base">
             <p>
               Settle In is a holistic support system designed to make every
               aspect of your transition into Canada seamless and stress-free.

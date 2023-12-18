@@ -42,15 +42,15 @@ const Hero = () => {
         </div>
 
         <div className="w-full h-full flex flex-col lg:items-end items-center lg:justify-center justify-start lg:text-right text-center gap-4 lg:px-36 px-5">
-          <h1 className="lg:text-5xl text-2xl text-white font-bold mb-4">
+          <h1 className="lg:text-4xl text-xl text-white font-bold mb-4">
             Welcome to Your New Adventure <br /> - Let's Get You Settled In!
           </h1>
-          <p className="lg:text-xl text-base text-white/70 mb-8 lg:w-[500px] w-full">
+          <p className="lg:text-lg text-sm text-white/70 mb-8 lg:w-[500px] w-full">
             Welcome to Settle In, your ultimate companion on your Canadian
             journey! 🍁✨ Whether you're here on a student visa, visitation
             visa, or making Canada your permanent home, we've got your back
             every step of the way.
-            <span className="text-secondary inline-block font-bold text-2xl">
+            <span className="text-secondary inline-block font-bold text-lg">
               Get started today for $10 CAD
             </span>
             .

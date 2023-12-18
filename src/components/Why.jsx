@@ -1,7 +1,9 @@
 import React from "react";
 import pin1 from "../assets/pin1.png";
-import pin2 from "../assets/pin2.png";
-import pin3 from "../assets/pin4.png";
+import pin2 from "../assets/navigate.jpeg";
+import road from "../assets/road.jpeg";
+import ease from "../assets/ease.jpeg";
+import comfort from "../assets/comfort.jpeg";
 
 const Why = () => {
   return (
@@ -16,12 +18,12 @@ const Why = () => {
           <div className="flex flex-col gap-6 items-start">
             <div>
               <h1 className="text-2xl font-bold">Smart Travels</h1>
-              <span>
+              <span className="text-sm">
                 We believe in affordable adventures! Count on us for tips on
                 scoring cheap flight bookings to and from Canada
               </span>
             </div>
-            <p>
+            <p className="text-sm">
               Budget-Savvy Flight Bookings: Traveling should be an exciting
               adventure, not a financial burden. Our travel experts specialize
               in finding affordable flight options. Receive tips on booking
@@ -33,16 +35,16 @@ const Why = () => {
 
         {/* MIDDLE CARD SECTION */}
         <div className="w-full h-max flex lg:flex-row-reverse flex-col items-center justify-center lg:px-12 gap-10">
-          <img src={pin2} className="object-contain w-full h-full" />
+          <img src={pin2} className="object-cover w-[480px] h-full" />
           <div className="flex flex-col gap-6 items-start">
             <div>
               <h1 className="text-2xl font-bold">Navigating the City:</h1>
-              <span>
+              <span className="text-sm">
                 From bus routes to Presto card registration, we've got the
                 inside scoop on getting around hassle-free.
               </span>
             </div>
-            <p>
+            <p className="text-sm">
               Customized Bus Route Guidance: Our team understands the importance
               of efficient daily commutes. We'll not only provide you with
               information on bus routes but also customize recommendations based
@@ -58,17 +60,17 @@ const Why = () => {
 
         {/* MIDDLE CARD SECTION */}
         <div className="w-full h-max flex lg:flex-row flex-col items-center justify-center lg:px-12 gap-10">
-          <img src={pin3} className="object-contain w-[511px] h-[500px]" />
+          <img src={ease} className="object-contain w-[511px] h-[500px]" />
           <div className="flex flex-col gap-6 items-start">
             <div>
               <h1 className="text-2xl font-bold">Financial Ease</h1>
-              <span>
+              <span className="text-sm">
                 Let us guide you through the process of opening a bank account
                 and registering for your SIN, ensuring a smooth transition into
                 Canadian life.
               </span>
             </div>
-            <p>
+            <p className="text-sm">
               Tailored Bank Account Support: Opening a bank account is a crucial
               step in settling down. Our experts will guide you through the
               process, taking into account your preferences and financial goals.
@@ -84,17 +86,17 @@ const Why = () => {
 
         {/* FOURTH CARD SECTION */}
         <div className="w-full h-max flex lg:flex-row-reverse flex-col items-center justify-center lg:px-12 gap-10">
-          <img src={pin2} className="object-contain w-full h-full" />
+          <img src={road} className="object-contain w-[480px] h-full" />
           <div className="flex flex-col gap-6 items-start">
             <div>
               <h1 className="text-2xl font-bold"> On the Road</h1>
-              <span>
+              <span className="text-sm">
                 Dreaming of hitting the open road? We'll help you with G1 to G
                 driver's license registration and provide preparation materials
                 to make driving in Canada a breeze.
               </span>
             </div>
-            <p>
+            <p className="text-sm">
               Comprehensive G1 to G Driver's License Support: Planning to
               explore Canada by car? We're here to assist you in every step of
               the driver's license journey, from obtaining your G1 to upgrading
@@ -106,17 +108,17 @@ const Why = () => {
 
         {/* FIFTH CARD SECTION */}
         <div className="w-full h-max flex lg:flex-row flex-col items-center justify-center lg:px-12  gap-10">
-          <img src={pin1} className="object-contain w-full h-full" />
+          <img src={comfort} className="object-contain w-[480px] h-full" />
           <div className="flex flex-col gap-6 items-start">
             <div>
               <h1 className="text-2xl font-bold">Comfortable Living:</h1>
-              <span>
+              <span className="text-sm">
                 Finding a home away from home is crucial. Trust Settle In for
                 assistance in securing accommodation bookings tailored to your
                 needs.
               </span>
             </div>
-            <p>
+            <p className="text-sm">
               Tailor-Made Accommodation Bookings: Your home away from home
               should reflect your lifestyle and preferences. Count on Settle In
               to assist you in securing accommodation that aligns with your
