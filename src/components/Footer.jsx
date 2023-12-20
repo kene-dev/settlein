@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="w-full lg:h-[165px] h-max bg-black flex flex-col items-center gap-7 lg:px-24 lg:py-5">
       <div className="w-full flex lg:flex-row flex-col items-center gap-10 text-white px-7">
@@ -23,7 +24,7 @@ const Footer = () => {
             alt="logo"
           />
 
-          <p>2023 Settle In All rights reserved</p>
+          <p> © {currentYear} Settle In All rights reserved</p>
         </div>
         <div className="w-full flex items-center lg:justify-end justify-center gap-7">
           <a href="" className="cursor-pointer">

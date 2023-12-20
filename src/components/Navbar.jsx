@@ -86,11 +86,11 @@ const Navbar = () => {
         </ul>
 
         <Link
-          to="hero"
+          to="form"
           onClick={handleNav}
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-200}
           duration={500}
           style={{ textShadow: "2px 2px 2px #000" }}
           className="hidden w-max px-10 rounded-md p-2 lg:flex items-center justify-center text-white text-base font-bold bg-secondary cursor-pointer"
