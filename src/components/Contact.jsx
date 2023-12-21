@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("moqgange");
+
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("Thanks for Reaching out");
+    }
+  }, [state]);
+
   return (
     <div
       id="contact"
@@ -11,11 +21,16 @@ const Contact = () => {
         For Further inquiries. Reach Out
       </h1>
 
-      <div className="w-full h-max flex lg:flex-row flex-col items-start justify-center gap-6 lg:px-14">
+      {/* CONTACT MESSAGE FORM  */}
+      <form
+        onSubmit={handleSubmit}
+        className="w-full h-max flex lg:flex-row flex-col items-start justify-center gap-6 lg:px-14"
+      >
         <div className="w-full flex flex-col gap-10">
           <div className="w-full flex items-center justify-center gap-5">
             <input
               required
+              name="fullname"
               placeholder="Full Name"
               className=" w-full lg:h-[60px] h-[30px] p-10 text-black appearance-none border-b-2 border-secondary/50 focus:outline-none bg-tertiary focus:border-b-2 focus:border-secondary"
             />
@@ -24,6 +39,7 @@ const Contact = () => {
           <div className="w-full flex items-center justify-center gap-5">
             <input
               required
+              name="email"
               placeholder="Email"
               type="email"
               className=" w-full lg:h-[60px] h-[30px] p-10 text-black appearance-none border-b-2 border-secondary/50 focus:outline-none bg-tertiary focus:border-b-2 focus:border-secondary"
@@ -42,13 +58,15 @@ const Contact = () => {
           ></textarea>
 
           <button
+            type="submit"
+            disabled={state.submitting}
             style={{ textShadow: "2px 2px 2px #000" }}
             className="w-full bg-secondary hover:bg-secondary/70 text-white font-semibold py-2 px-4 lg:mt-8 mt-4 rounded hover:bg-primary-dark shadow-md shadow-black/50"
           >
-            Send Message
+            {state.submitting ? "sending" : "Send Message"}
           </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

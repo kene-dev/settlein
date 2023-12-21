@@ -5,19 +5,22 @@ import { Link } from "react-scroll";
 import { toast } from "react-toastify";
 
 const Hero = () => {
+  const dispatch = useDispatch();
+  const inputRef = useRef(null);
+  const { formSuccess, formError, formMessage, formLoading } = useSelector(
+    (state) => state.form
+  );
+
+  // SIGN UP FORM STATE
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     phoneNumber: "",
     Email: "",
   });
-  const dispatch = useDispatch();
-  const inputRef = useRef(null);
-  const { formSuccess, formError, formMessage, formLoading } = useSelector(
-    (state) => state.form
-  );
   const { firstName, lastName, email, phoneNumber } = formData;
 
+  // FUNCTION TO SET FORM FOCUS
   const focusInput = () => {
     if (inputRef.current) {
       inputRef.current.focus();
