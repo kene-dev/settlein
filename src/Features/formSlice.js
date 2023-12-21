@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASEURL = "https://dull-erin-jay-gear.cyclic.app";
+const BASEURL = "https://zany-erin-cocoon-suit.cyclic.app/api/v1";
 
 const initialState = {
   formLoading: false,
@@ -14,7 +14,7 @@ export const sendForm = createAsyncThunk(
   "form/send",
   async (body, thunkAPI) => {
     try {
-      const response = await axios.post(BASEURL + "/api/v1/mail", body);
+      const response = await axios.post(BASEURL + "/mail", body);
       console.log(response.data);
       if (response.status === 200) {
         return response.data.msg;
